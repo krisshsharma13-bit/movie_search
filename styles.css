@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131720;
+    font-family: sans-serif;
+}
+
+h3 {
+    color: white;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.topnav .search-container {
+    float: right;
+    padding: 10px;
+}
+
+form {
+    background-color: #151f30;
+    width: 300px;
+    height: 40px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+}
+input {
+    all: unset;
+    font: 15px system-ui;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+}
+
+.Thumbnail {
+    height: 350px;
+    width: 250px;
+    border-radius: 19px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px 30px;
+}
+
+.card {
+    width: 310px;
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    background-color: #151f30;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* How fast it will act when hovered */
+}
+.card:hover {
+    transform: scale(1.05); /* Zoom-in when hovered and how much to be scaled */
+}
+
+ button {
+    background-color: #151f30;
+    color: white;
+    padding: 9px 9px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ 
+ #section {
+    display: flex;          /* enables horizontal layout */
+    flex-wrap: wrap;        /* moves to next line if space ends */
+    justify-content: center;/* center align */
+    gap: 30px;              /* space between cards */
+    padding: 20px;
+}
+
+
+.material-symbols-outlined {
+  /*font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24;*/
+  font-size: 34px;
+  float : left;
+  color: rgb(255, 255, 255);
+  display: flex;
+  padding: 4px;
+}
+
