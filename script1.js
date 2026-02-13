@@ -6,6 +6,16 @@ const main = document.getElementById('section');
 const form = document.getElementById('form');
 const search = document.getElementById('query');
 
+const searchIcon = document.getElementById('search');
+
+function toggleSearch() {
+    const searchContainer = document.querySelector('.search-container');
+    searchContainer.classList.toggle('active');
+}
+
+searchIcon.addEventListener('click', toggleSearch);
+
+
 returnMovies(API_LINK);
 
 function returnMovies(url) {
